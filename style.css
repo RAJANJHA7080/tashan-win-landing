@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.join-btn:hover {
+    background-color: #0056b3;
+}
+
+.rating p {
+    font-size: 1.2em;
+    color: #00ff00;
+}
+
+.stars {
+    font-size: 1.5em;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.features li {
+    margin: 10px 0;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.countdown div {
+    text-align: center;
+}
